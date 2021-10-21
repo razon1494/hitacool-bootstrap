@@ -1,41 +1,42 @@
-import React from 'react';
-import {Link} from 'react-router-dom/cjs/react-router-dom.min';
-import './Footer.css'
-const Footer = () => {
-    return (
-        <div>
+<div class="main"> FOOTER DESIGN IN HTML CSS</div>
 <footer class="footer-distributed">
 
     <div class="footer-left">
 
-        <h3>Hita<span>Cool</span></h3>
+        <h3>WebDev<span>Trick</span></h3>
 
         <p class="footer-links">
-            <Link to="/home" className='me-3'> Home  </Link>
-            <Link to="/about" className='me-3'> About </Link>
-            <Link to="/services" className='me-3'> Services </Link>
-            <Link to="/executive" className='me-3'> Executive </Link>
-
+            <a href="#">Home</a>
+            ·
+            <a href="#">Blog</a>
+            ·
+            <a href="#">Pricing</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Faq</a>
+            ·
+            <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">future engineering &copy; 2012</p>
+        <p class="footer-company-name">webdevtrick &copy; 2019</p>
     </div>
 
     <div class="footer-center">
 
         <div>
             <i class="fa fa-map-marker"></i>
-            <p><span>19 Shahid Tajuddin Ahmed Sharoni,Bara Maghbazar</span>  Dhaka, Bangladesh</p>
+            <p><span>21 Revolution Street</span> Delhi, India</p>
         </div>
 
         <div>
             <i class="fa fa-phone"></i>
-            <p>+88-01971-321446</p>
+            <p>+1 555 123456</p>
         </div>
 
         <div>
             <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">info@hitacool.net</a></p>
+            <p><a href="mailto:support@company.com">contact@webdevtrick.com</a></p>
         </div>
 
     </div>
@@ -59,9 +60,3 @@ const Footer = () => {
     </div>
 
 </footer>
-
-        </div>
-    );
-};
-
-export default Footer;

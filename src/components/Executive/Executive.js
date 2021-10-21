@@ -12,7 +12,7 @@ const Executive=() => {
 
     return (
         <div className='container'>
-            <h1 className='executive-title m-5 fw-bold'>Our Executive Body</h1>
+            <h1 className='text-center executive-title m-5 fw-bold'>Our Executive Body</h1>
             <div className="row g-4 justify-content-center">
             {
                 executives.map(executive => <EachExecutive

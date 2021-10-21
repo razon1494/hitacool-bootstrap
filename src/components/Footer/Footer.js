@@ -25,7 +25,8 @@ const Footer = () => {
 
         <div>
             <i class="fa fa-map-marker"></i>
-            <p><span>19 Shahid Tajuddin Ahmed Sharoni,Bara Maghbazar</span>  Dhaka, Bangladesh</p>
+            <p><span>House 428(1st Floor), Road 30,
+Mohakhali DOHS,</span>  Dhaka, Bangladesh</p>
         </div>
 
         <div>

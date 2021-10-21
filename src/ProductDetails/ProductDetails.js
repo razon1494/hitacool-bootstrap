@@ -7,30 +7,37 @@ const ProductDetails=() => {
     const params=useParams();
     const {id}=params;
     const product=ac.find(product => product.acid==id);
-    const {img1, brand, capacity,type,type1,model, system, price, origin, acid, inverter,features,sepcifications}=product;
+    const {img1, brand, capacity,type,type1,model, system, price, origin, acid, inverter,installation,features,sepcifications}=product;
     console.log(sepcifications);
     for(const spec in sepcifications) {
                     console.log(`${spec} : ${sepcifications[spec]}`);
                 }
     return (
-        <div className='container'>
-            <img src={img1} alt="" width="400px" />
-            <h3>{brand} {capacity} {type1} type ac, Model {model} </h3>
+      <div className='container'>
+        <div className="mx-auto">
+            <img className='mx-auto d-block img-fluid' src={img1} alt="" />
+        </div>
+<div className="product-details-text text-center">
+          <h2 className='product-detail-title'>{brand} {capacity} {type1} {installation} type ac, <br /> Model {model} </h2>
+          <h3 className='details-origin'>{system}</h3>
             {
-                inverter ? <h5>Inverter</h5> : <h5>Non Inverter</h5>
+                inverter ? <h5 className='details-inverter'>Inverter</h5> : <h5 className='details-inverter'>Non Inverter</h5>
             }
-            <h4>Origin: {origin}</h4>
-            <p>{type}</p>
-            <h5>Price: &#2547; {price}</h5>
-            <p>Product Code: {acid+1000}</p>
-            <h2 className='features text-center'>Features</h2>
+            <h4 className='details-origin'>Origin: {origin}</h4>
+            <p className='details-regular-text'>{type}</p>
+            <h5 className='details-price'>Price: &#2547; {price}</h5>
+          <p className='details-regular-text'>Product Code: {acid+1000}</p>
+          </div>
+        <h2 className='features my-5 text-center'>FEATURES</h2>
+        <ul className=''>
             {
                 features.map(feature =>
-                    <li className=''>{feature}</li>
+                    <li className='feature-line'>{feature}</li>
                 )
-            }
-            <h2 className='spec text-center my-5'>Specifications</h2>
-<Table responsive>
+          }
+          </ul>
+            <h2 className='spec features text-center my-5'>SPECIFICATIONS</h2>
+<Table responsive className=' specs'>
   <thead>
     <tr>
       <th>#</th>

@@ -1,0 +1,9 @@
+.product-title{
+    text-decoration: underline;
+    color: rgba(95, 158, 160, 0.85);
+}
+
+#products-title{
+    color: sandybrown;
+    text-decoration: underline;
+}

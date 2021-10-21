@@ -1,0 +1,24 @@
+.management-title{
+    line-height: 80px;
+    color:CadetBlue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.management-span{
+    color: DarkOliveGreen;
+    text-decoration: underline;
+}
+
+.management-photo{
+    border-radius: 100%;
+}
+
+.ceo-name{
+    color: steelblue;
+}
+.post{
+    color: darkcyan;
+}
+.education{
+    color: gray;
+}

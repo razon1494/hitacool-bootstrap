@@ -1,0 +1,9 @@
+.executive-title{
+    text-decoration: underline;
+    color: rgba(95, 158, 160, 0.85);
+}
+
+#executive-title-span{
+    color: sandybrown;
+    text-decoration: underline;
+}

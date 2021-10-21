@@ -1,0 +1,28 @@
+.office{
+    min-height: 700px;
+}
+
+.office-title{
+    color: seagreen;
+       text-decoration: underline;
+}
+.dhaka{
+    color: sienna;
+       text-decoration: underline;
+}
+.office-text{
+    line-height: 50px;
+
+}
+.factory-title{
+    color: seagreen;
+       text-decoration: underline;
+}
+.Factory{
+    color: sienna;
+       text-decoration: underline;
+}
+.factory-text{
+    line-height: 50px;
+
+}

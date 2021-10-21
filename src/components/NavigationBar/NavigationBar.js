@@ -3,6 +3,7 @@ import './NavigationBar.css';
 
 import {Navbar, Container, Nav} from 'react-bootstrap'
 import logo from '../../images/logo3.png';
+import {Link} from 'react-router-dom/cjs/react-router-dom.min';
 
 const NavigationBar = () => {
     return (
@@ -17,10 +18,10 @@ const NavigationBar = () => {
     <Nav className="me-auto">
     </Nav>
     <Nav>
-      <Nav.Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' href="#home">Home</Nav.Link>
-      <Nav.Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' href="#Office">Office</Nav.Link>
-      <Nav.Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' href="#management">Management</Nav.Link>
-      <Nav.Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' href="#products">Products</Nav.Link>
+      <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/home">Home</Link>
+      <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/Office">Office</Link>
+      <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/management">Management</Link>
+      <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/products">Products</Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

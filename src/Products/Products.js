@@ -1,10 +1,9 @@
 import React from 'react';
-import './Shop.css';
-import ac from '../../data';
+import './Products.css';
+import ac from '../data';
+import AcCard from '../components/AcCard/AcCard';
+const Products=() => {
 
-import AcCard from '../AcCard/AcCard';
-const Shop=() => {
-    console.log(ac);
     return (
         <div className='container'>
             <h1 className='text-center my-5 fw-bold product-title'>All Exclusive <span id='products-title'> AC Products</span></h1>
@@ -22,4 +21,4 @@ const Shop=() => {
     );
 };
 
-export default Shop;
+export default Products;

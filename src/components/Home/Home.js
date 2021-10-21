@@ -6,14 +6,15 @@ import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import Slider from '../../components/Slider/Slider';
 import Shop from '../../components/Shop/Shop';
 // import ContactUs from '../../ContactUs/ContactUs';
+import ContacUs from '../ContactUs/ContactUs'
 const Home = () => {
     return (
         <div>
-      <NavigationBar />
+
       <Slider />
             <Executive />
             <Shop></Shop>
-            {/* <ContactUs></ContactUs> */}
+            <ContacUs></ContacUs>
 
 
         </div>

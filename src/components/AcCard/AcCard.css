@@ -1,0 +1,28 @@
+.ac-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.ac-card:hover{
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+background-color: whitesmoke;
+}
+
+
+
+.ac-card-btn{
+    border:none;
+    background-color:DarkSlateGray;
+    padding: 5px 35px;
+    color: ghostwhite;
+    font-size: 19px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.ac-card:hover .ac-card-btn{
+background-color: RosyBrown;
+}

@@ -1,10 +1,14 @@
 import {Route, Switch} from 'react-router';
 import {BrowserRouter} from 'react-router-dom/cjs/react-router-dom.min';
+import Address from './Address/Address';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import ProductDetails from './ProductDetails/ProductDetails';
+import NavigationBar from './components/NavigationBar/NavigationBar';
+import Management from './Management/Management';
+import ProductDetails from './ProductDetails/ProductDetails'
+import Products from './Products/Products';
 
 
 function App() {
@@ -12,7 +16,8 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
-             <Header/>
+        <Header />
+        <NavigationBar />
         <Switch>
           <Route exact path='/'>
               <Home></Home>
@@ -20,11 +25,18 @@ function App() {
           <Route path='/home'>
               <Home></Home>
           </Route>
+          <Route path='/office'>
+              <Address></Address>
+          </Route>
           <Route path='/products/:id'>
-              <ProductDetails></ProductDetails>
+            <ProductDetails></ProductDetails>
+
           </Route>
           <Route path='/products'>
-              <ProductDetails></ProductDetails>
+            <Products></Products>
+          </Route>
+          <Route path='/management'>
+            <Management></Management>
           </Route>
 
 

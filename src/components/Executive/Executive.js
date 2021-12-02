@@ -11,8 +11,10 @@ const Executive=() => {
     console.log(executives);
 
     return (
+        <div className='executive-container'>
+             <h1 className='text-center fw-bold my-5 executive-title'>HITACOOL <span id='executive-title-span'>   EXECUTIVE PANEL</span> </h1>
         <div className='container'>
-            <h1 className='text-center fw-bold my-5 executive-title'>Our Executive <span id='executive-title-span'> Body </span></h1>
+
             <div className="row g-4 justify-content-center">
             {
                 executives.map(executive => <EachExecutive
@@ -21,7 +23,7 @@ const Executive=() => {
                 ></EachExecutive>)
                 }
             </div>
-        </div>
+        </div></div>
     );
 };
 

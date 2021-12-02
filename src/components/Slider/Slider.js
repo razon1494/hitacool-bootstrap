@@ -16,7 +16,7 @@ const Slider=() => {
     />
     <Carousel.Caption className='carousel1-text'>
       <h3 className='carousel1-title'><span id='cooling'> Cooling </span>&<span id='heating'> Heating </span></h3>
-      <p className='carousel1-p'>Faster Cooling, Better Savings, Smooth Heating.</p>
+      {/* <p className='carousel1-p'>Faster Cooling, Better Savings, Smooth Heating.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -27,8 +27,8 @@ const Slider=() => {
     />
 
     <Carousel.Caption className='carousel2-text'>
-      <h3 className='carousel2-title'>We Have our Own Manufacturer  <span id='factory'>Factory</span> </h3>
-      <p className='carousel2-p'>130, Khumira, Pirojpur Sadar,<br/> Pirojpur, Bangladesh</p>
+      {/* <h3 className='carousel2-title'>We Have our Own Manufacturer  <span id='factory'>Factory</span> </h3> */}
+      <p className='carousel2-p'>We Have our Own Manufacturer  <span id='factory'>Factory</span> <br/> 130, Khumira, Pirojpur Sadar, Pirojpur, Bangladesh</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -38,8 +38,8 @@ const Slider=() => {
       alt="Third slide"
     />
     <Carousel.Caption className='carousel3-text'>
-      <h3 className='carousel3-title'>Our<span id='dhaka'> Dhaka </span>Office At</h3>
-      <p className='carousel3-p'>House 428(1st Floor), Road 30,<br/> Mohakhali DOHS, Dhaka 1212</p>
+      {/* <h3 className='carousel3-title'>Our<span id='dhaka'> Dhaka </span>Office At</h3> */}
+      <p className='carousel3-p'> Our<span id='dhaka'> Dhaka </span>Office At House 428(1st Floor), Road 30,<br/> Mohakhali DOHS, Dhaka 1212</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

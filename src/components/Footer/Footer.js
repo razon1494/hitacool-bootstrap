@@ -45,7 +45,7 @@ Mohakhali DOHS,</span>  Dhaka, Bangladesh</p>
 
         <p class="footer-company-about">
             <span>About the company</span>
-            Web Dev Trick is a blog for web designers, graphic designers, web developers &amp; SEO Learner.
+            Hitacool Industries Limited is the frist authorized Hitachi AC dealer in Bangladesh.All The products are directly imported from the origin country. We Provide the lowest possible price and maintain the best quality service.
         </p>
 
         <div class="footer-icons">
@@ -58,6 +58,9 @@ Mohakhali DOHS,</span>  Dhaka, Bangladesh</p>
         </div>
 
     </div>
+                <div className="copyright mt-3 text-center text-light">
+                <small>&copy; 2021 By Arifur Rahman Razon</small>
+            </div>
 
 </footer>
 

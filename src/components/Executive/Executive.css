@@ -1,9 +1,21 @@
+/* .executive-container{
+    background-color: ghostwhite;
+    padding: 20px 0;
+}
+ */
+
 .executive-title{
-    text-decoration: underline;
+    text-decoration: overline underline;
     color: rgba(95, 158, 160, 0.85);
+    /* color:darkcyan; */
+    /* letter-spacing: 7px; */
+    word-spacing: 20px;
+    /* background-color: azure; */
+    padding: 2% 0;
+
 }
 
 #executive-title-span{
-    color: sandybrown;
-    text-decoration: underline;
+    color: rgba(218, 165, 32, 0.75);
+    text-decoration: overline underline;
 }

@@ -1,0 +1,27 @@
+.selfac-title{
+    color:steelblue;
+    font-weight: 600;
+}
+
+.feature-list-self{
+    color: gray;
+    font-size: 1.1rem;
+    list-style: square;
+    cursor: pointer;
+    transition: 0.71s ease-out;
+}
+.feature-list-self:hover{
+    font-size: 1.4rem;
+    color: darkcyan;
+    list-style: square;
+    cursor: pointer;
+}
+.self-ac-detail-p{
+    text-align: justify;
+}
+.self-ac-detail-head{
+    color: darkcyan;
+}
+.detail-h5{
+    color: darkolivegreen;
+}

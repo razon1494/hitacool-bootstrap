@@ -1,8 +1,9 @@
 import React from 'react';
 import './EachExecutive.css'
-import ceo from '../../images/ceo.png'
-import md from '../../images/md.png'
+
+import md from '../../images/dg.png'
 import dg from '../../images/dg.png'
+const ceo = 'https://i.ibb.co/S5YHLgc/256864384-870039543709649-8346803169044203096-n.jpg'
 const imgArr=[ceo, md, dg];
 const EachExecutive=(props) => {
     const {executive}=props;

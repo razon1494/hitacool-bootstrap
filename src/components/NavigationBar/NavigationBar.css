@@ -9,8 +9,10 @@
     text-decoration: none;
     border-radius: 10px;
 
+
 }
 .nav-items:hover{
     background-color: rgba(218, 165, 32, 0.685);
-    color: white;
+    background-color:rgba(216, 191, 216, 0.85);
+
 }

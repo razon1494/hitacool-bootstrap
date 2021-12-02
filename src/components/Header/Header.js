@@ -20,7 +20,7 @@ const Header = () => {
 
             <div className="call-now">
                 <a href='/call' className='call'>
-                    <FontAwesomeIcon className='text-dark' icon={faPhoneVolume}/><span className='fw-bold text-dark'> Call Now  </span> +88-01971-321446
+                    <FontAwesomeIcon className='text-dark' icon={faPhoneVolume}/><span className='fw-bold text-dark'> Phone:</span> +88-01971-321446
                 </a>
             </div>
             <div className="call-now">

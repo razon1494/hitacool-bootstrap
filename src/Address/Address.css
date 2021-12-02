@@ -3,26 +3,34 @@
 }
 
 .office-title{
-    color: seagreen;
-       text-decoration: underline;
+    color: rgba(46, 139, 86, 0.788);
+       text-decoration: overline;
+       letter-spacing: 4px;
 }
 .dhaka{
-    color: sienna;
-       text-decoration: underline;
+    color: rgba(160, 81, 45, 0.671);
+       text-decoration: overline;
 }
 .office-text{
     line-height: 50px;
+    letter-spacing: 3px;
+    color: rgba(47, 79, 79, 0.85);
 
 }
 .factory-title{
-    color: seagreen;
-       text-decoration: underline;
+    color: rgba(46, 139, 86, 0.61);
+       text-decoration: overline;
+       letter-spacing: 4px;
 }
 .Factory{
-    color: sienna;
-       text-decoration: underline;
+    color: rgba(160, 81, 45, 0.568);
+       text-decoration: overline;
+
 }
 .factory-text{
     line-height: 50px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: rgba(47, 79, 79, 0.85);
 
 }

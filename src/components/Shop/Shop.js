@@ -2,12 +2,19 @@ import React from 'react';
 import './Shop.css';
 import ac from '../../data';
 
+
 import AcCard from '../AcCard/AcCard';
+import SelfContained from '../Self-contained/Self-Contained/SelfContained';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const Shop=() => {
     console.log(ac);
     return (
         <div className='container'>
-            <h1 className='text-center my-5 fw-bold product-title'>All Exclusive <span id='products-title'> AC Products</span></h1>
+
             <div className="products row justify-content-center">
                 {
                     ac.map(p =>
@@ -18,6 +25,8 @@ const Shop=() => {
                     )
                 }
             </div>
+
+
         </div>
     );
 };

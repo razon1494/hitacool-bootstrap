@@ -2,11 +2,12 @@
     line-height: 80px;
     color:CadetBlue;
     font-weight: 600;
-    text-decoration: underline;
+    text-decoration: overline underline;
+    letter-spacing: 4px;
 }
 .management-span{
     color: DarkOliveGreen;
-    text-decoration: underline;
+    text-decoration: overline underline;
 }
 
 .management-photo{

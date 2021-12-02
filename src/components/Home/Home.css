@@ -1,0 +1,27 @@
+.toggle {
+    background-color: floralwhite;
+    background-color: aliceblue;
+    padding: 2%;
+}
+
+.active{
+    border: none;
+    background-color: transparent;
+    color: #ff136f;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+
+.deactive{
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    line-height: 50px;
+    text-transform: uppercase;
+
+}

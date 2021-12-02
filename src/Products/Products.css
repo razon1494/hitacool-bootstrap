@@ -1,0 +1,16 @@
+.product-title-products{
+    font-weight: bold ;
+    color: cadetblue;
+    color: darkolivegreen;
+    letter-spacing: 3px;
+    text-decoration: overline underline;
+    text-transform: uppercase;
+
+}
+
+#products-title-products{
+
+    color: cornflowerblue;
+    color: darkgoldenrod;
+    text-decoration: overline;
+}

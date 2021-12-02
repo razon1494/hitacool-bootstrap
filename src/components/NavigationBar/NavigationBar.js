@@ -18,10 +18,12 @@ const NavigationBar = () => {
     <Nav className="me-auto">
     </Nav>
     <Nav>
-      <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/home">Home</Link>
+                <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/home">Home</Link>
+                <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/products">Products</Link>
+                <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/about">About</Link>
       <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/Office">Office</Link>
       <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/management">Management</Link>
-      <Link className='nav-items fs-5 px-5  py-2 fw-bold text-dark' to="/products">Products</Link>
+
     </Nav>
   </Navbar.Collapse>
   </Container>

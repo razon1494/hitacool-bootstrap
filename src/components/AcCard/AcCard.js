@@ -14,7 +14,7 @@ const AcCard=({product}) => {
             }
             <p className='details-origin'>Origin: {origin}</p>
             {/* <p>{type}</p> */}
-            <h5 className='details-price'>Price: &#2547; {price}</h5>
+            {/* <h5 className='details-price'>Price: &#2547; {price}</h5> */}
             {/* <p>Product Code: {acid+1000}</p> */}
             <Link to= {`/products/${acid}`}><button className='ac-card-btn mx-auto'>Details</button></Link>
 

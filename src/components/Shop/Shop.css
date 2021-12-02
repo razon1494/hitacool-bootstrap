@@ -1,9 +1,15 @@
 .product-title{
-    text-decoration: underline;
+    text-decoration: overline;
     color: rgba(95, 158, 160, 0.85);
+     letter-spacing: 3px;
+    word-spacing: 10px;
+    text-decoration: overline underline;
+    text-transform: uppercase;
 }
 
 #products-title{
-    color: sandybrown;
-    text-decoration: underline;
+    color: rgba(244, 165, 96, 0.815);
+    color: rgba(95, 158, 160, 0.85);
+    text-decoration:overline;
+
 }

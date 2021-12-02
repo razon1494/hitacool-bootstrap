@@ -456,7 +456,7 @@ const ac=[
         heating: false,
         system: 'Cooling',
         price: 75000,
-        img1: 'https://i.ibb.co/V9wnmdK/9.png',
+        img1: 'https://i.ibb.co/6X0Kvp1/9.png',
         img2: '',
         img3: '',
         features: [
@@ -577,7 +577,7 @@ const ac=[
         heating: false,
         system: 'Cooling',
         price: 150000,
-        img1: 'https://i.ibb.co/hRTYNpk/11.png',
+        img1: 'https://i.ibb.co/CvJmxQ2/11u.png',
         img2: '',
         img3: '',
         features: [

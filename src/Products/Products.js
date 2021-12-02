@@ -6,7 +6,7 @@ const Products=() => {
 
     return (
         <div className='container'>
-            <h1 className='text-center my-5 fw-bold product-title'>All Exclusive <span id='products-title'> AC Products</span></h1>
+            <h1 className='text-center my-5 fw-bold product-title-products'>All Exclusive <span id='products-title-products'> AC Products</span></h1>
             <div className="products row justify-content-center">
                 {
                     ac.map(p =>

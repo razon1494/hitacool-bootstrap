@@ -1,0 +1,23 @@
+
+.about-h1-title{
+font-weight: 700;
+    line-height: 40px;
+    color: darkslateblue;
+    letter-spacing: 4px;
+}
+.about-text-p{
+    color:grey ;
+    text-align: justify;
+    line-height: 30px;
+
+}
+.inverter-split{
+    padding-top: 50px;
+}
+.inverter-h1{
+    line-height: 50px;
+}
+.inverter-h4{
+    color: grey;
+    line-height: 130%;
+}
